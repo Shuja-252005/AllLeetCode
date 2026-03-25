@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int[] arr = {1,3,5,7};
-        int target = 5;
+        int target = 8;
 
         Solution s1 = new Solution();
 
