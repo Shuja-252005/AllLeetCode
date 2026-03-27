@@ -1,12 +1,13 @@
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
-        int[] arr = {1,3,5,7};
-        int target = 8;
+        int[] arr = {9,9,9};
 
         Solution s1 = new Solution();
 
-        System.out.println(s1.searchInsert(arr,target));
+        System.out.println(Arrays.toString(s1.plusOne(arr)));
 
 
     }
